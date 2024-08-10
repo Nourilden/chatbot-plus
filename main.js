@@ -51,7 +51,7 @@ function generateBotResponse(userInput) {
     } else if (
       userInput.toLowerCase().includes("what is my password", "What is my password")
     ) {
-      botResponse = `your email is ${pass}`;
+      botResponse = `your password is ${pass}`;
     } else if (
       userInput.toLowerCase().includes("what is my name", "What is my name")
     ) {
